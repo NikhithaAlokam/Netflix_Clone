@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+// import { Counter } from './features/counter/Counter';
+import HomeScreen from './HomeScreen.js'
 import './App.css';
 
 function App() {
   return (
     <div className="app">
-      <h1> Let's build Netflix</h1>
+      <HomeScreen/>
     </div>
   );
 }
