@@ -48,7 +48,7 @@ function Banner() {
             <button className="banner_button">My List</button>
             </div>
             </div>
-            <div className="banner_fadeBottom"></div>
+            <div className="banner--fadebottom"></div>
         </header>
         );
     
