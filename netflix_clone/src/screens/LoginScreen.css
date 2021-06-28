@@ -1,0 +1,87 @@
+.loginScreen{
+    position:relative;
+    width: 100%;
+    background:url("https://cdn.tmobile.com/content/dam/t-mobile/ntm/specific-use/netflix/bg/new/1182202-bg-full-netflix-grid-v2.desktop.jpg")
+    center no-repeat;
+    background-size: cover;
+}
+
+.loginScreen_body{
+    position:absolute;
+    z-index:1;
+    top:30%;
+    color:#fff;
+    margin-left: auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    text-align:center;
+    padding: 20px;
+    
+}
+.loginScreen_body > h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.loginScreen_body > h2{
+    font-size:2rem;
+    font-weight:400;
+    margin-bottom: 30px;
+}
+.loginScreen_body >h3{
+    font-size:1.3rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.loginScreen_gradient{
+    width:100%;
+    z-index:1;
+    height:100vh;
+    background: rgba(0,0,0,0.7);
+    /* background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.2) 0,
+        rgba(0,0,0) 60%,
+        rgba(0,0,0, 0.2) 100%
+    ); */
+}
+.loginScreen_button{
+    position:fixed;
+    right:20px;
+    top:20px;
+    padding :10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    cursor:pointer;
+    border: none;
+    border-radius:3px;
+
+}
+.loginScreen_logo{
+    position:fixed;
+    left:0;
+    width:150px;
+    object-fit:contain;
+    padding-left:20px;
+}
+.loginScreen_input > form > input{
+    padding:10px;
+    outline-width: 0;
+    height:30px;
+    width:40%;
+    border: none;
+    max-width: 700px;
+    border-radius:1px;
+}
+.loginScreen_getStarted{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    width:20%;
+    background-color: #e50914;
+    border: none;
+    border-radius:1px;
+}
