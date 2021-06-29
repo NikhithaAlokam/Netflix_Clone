@@ -30,4 +30,5 @@ transition:all 0.5s;
     position:fixed;
     right:70px;
     width: 35px;
+    cursor: pointer;
 }
