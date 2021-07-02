@@ -30,6 +30,7 @@ function LoginScreen() {
                         onClick={() => setSignIn(true)}
                         className="loginScreen_getStarted">Get Started </button>
                     </form>
+                    <p>ALOKAM NIKHITHA ( nikhithaalokam@gmail.com )</p>
                 </div>
                 </> )}
             </div>
